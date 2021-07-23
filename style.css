@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    height: 106px;
+    background-color: #92a8d1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.array-inputs {
+    display: flex;
+    position: absolute;
+    left: 2%;
+    font-size: 13px;
+    top: 14px;
+    width: 755px;
+    flex-direction: column;
+    height: 92px;
+}
+
+.array-inputs #a-size {
+    left: 104px;
+    padding: 2% 0%;
+    width: 100px;
+    top: -14.2px;
+    position: absolute;
+}
+
+.array-inputs #a-speed {
+    padding: 2% 0%;
+    position: absolute;
+    top: 16px;
+    left: 153px;
+    width: 108px;
+}
+
+#a-generate {
+    font-weight: bold;
+    padding: 2% 0%;
+    background-color: white;
+    width: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    border-radius: 8px;
+    position: absolute;
+    top: 55px;
+}
+
+.array-inputs #a-generate:hover {
+    cursor: pointer;
+    color: darkgreen;
+}
+
+.header-right {
+}
+
+.heading {
+    font-size: xxx-large;
+    position: absolute;
+    top: -15px;
+    right: 40%;
+    display: inline-block;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.algorithms {
+    right: 1%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 20px;
+    top: 9%;
+    width: 517px;
+}
+
+.algorithms button {
+    font-size: 13px;
+    outline: none;
+    border-radius: 10px;
+    height: 33px;
+    width: 102px;
+    background: #cfe0e8;
+    border: 2px solid white;
+}
+
+.header-right .algorithms button:hover {
+    cursor: pointer;
+    color: darkgreen;
+}
+
+.array-container {
+    background: #CCFFFF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.graph {
+    width: 86%;
+    position: absolute;
+    left: 8%;
+    height: 74%;
+    top: 20%;
+}
+
+.histogram {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 30px;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.div-array {
+    position: relative;
+    background: black;
+    width: 30px;
+    border: 1px solid white;
+}
+
+.array-inputs p {
+    margin-bottom: 11px;
+    font-size: 16px;
+}
+
